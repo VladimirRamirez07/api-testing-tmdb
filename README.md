@@ -12,15 +12,23 @@ API testing project using Jest, Axios and GitHub Actions against the TMDB produc
 - **GitHub Actions** — CI/CD
 
 ## Project Structure
-src/
-├── helpers/
-│   └── apiClient.js    # Axios base client
-├── schemas/
-└── tests/
-├── auth.test.js        # Authentication tests
-├── search.test.js      # Search tests
-├── pagination.test.js  # Pagination tests
-└── schema.test.js      # JSON schema validation
+
+```
+api-testing-tmdb/
+├── src/
+│   ├── helpers/
+│   │   └── apiClient.js
+│   ├── schemas/
+│   └── tests/
+│       ├── auth.test.js
+│       ├── search.test.js
+│       ├── pagination.test.js
+│       └── schema.test.js
+├── .env
+├── .gitignore
+├── jest.config.js
+└── package.json
+```
 ## Test Coverage
 
 - ✅ Authentication with valid/invalid API key
@@ -35,3 +43,6 @@ src/
 1. Clone the repo
 2. Install dependencies: `npm install`
 3. Create `.env` file:
+TMDB_BASE_URL=https://api.themoviedb.org/3
+TMDB_API_KEY=your_api_key_here
+4. Run tests: `npm test`
