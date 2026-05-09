@@ -3,6 +3,13 @@
 API testing project using Jest, Axios and GitHub Actions against the TMDB production API.
 
 ![Tests](https://github.com/VladimirRamirez07/api-testing-tmdb/actions/workflows/tests.yml/badge.svg)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Jest](https://img.shields.io/badge/Jest-C21325?style=flat&logo=jest&logoColor=white)
+![Axios](https://img.shields.io/badge/Axios-5A29E4?style=flat&logo=axios&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
+![MIT License](https://img.shields.io/badge/License-MIT-green?style=flat)
+![Tests](https://img.shields.io/badge/Tests-21%20passing-brightgreen?style=flat)
 
 ## Tech Stack
 
